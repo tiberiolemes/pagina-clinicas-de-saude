@@ -64,6 +64,12 @@ Use $clinicas-saude-lp-completa com estes materiais da clínica. Conduza anális
 
 Inclua fatos confirmados, documentos comerciais, identidade, referência visual e condições de agendamento quando disponíveis. A skill aproveita materiais parciais, registra lacunas e pergunta somente quando uma informação essencial impede escolher o serviço, identificar a clínica ou definir o próximo passo. Não envie prontuários ou dados clínicos identificáveis.
 
+## Retomada
+
+Os arquivos de entrega incluem estado.json. Para continuar um pacote interrompido, reabra o projeto com seus materiais e peça:
+
+    Retome $clinicas-saude-lp-completa a partir de estado.json. Confira as versões dos insumos, preserve edições minhas e continue da próxima etapa incompleta.
+
 ## Estrutura
 
 ```text
@@ -113,6 +119,12 @@ Invoke `/clinicas-saude-lp-suite:clinicas-saude-lp-completa`. For one local deve
 ### Use
 
 Provide the available clinic materials, the service in scope, and the conversion channel. Ask the skill to complete all four stages and deliver the package. It records missing facts instead of inventing them and asks only when an essential gap prevents defining the service, clinic, or next step. Do not provide identifiable medical records or clinical data.
+
+### Resume
+
+Delivery folders include estado.json. To continue an interrupted package, reopen the project with its source materials and ask:
+
+    Resume $clinicas-saude-lp-completa from estado.json. Check input versions, preserve my edits, and continue from the next incomplete stage.
 
 ### License and contribution
 
