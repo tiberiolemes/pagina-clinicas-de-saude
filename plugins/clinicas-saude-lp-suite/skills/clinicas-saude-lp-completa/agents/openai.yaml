@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clínicas de Saúde — Página Completa"
+  short_description: "Quatro etapas com agentes e revisão final"
+  default_prompt: "Use $clinicas-saude-lp-completa com os materiais da minha clínica e conduza análise, copy, design system e direção de criação até o pacote final."

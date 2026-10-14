@@ -1,0 +1,15 @@
+{
+  "name": "clinicas-saude-lp-suite",
+  "version": "1.0.0",
+  "description": "Agente autônomo para estratégia, copy, design system e direção de criação de landing pages para clínicas de saúde.",
+  "author": {
+    "name": "Tibério Lemes"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/clinicas-saude-lp-completa"
+  ],
+  "agents": [
+    "./agents/clinicas-saude-lp-completa-agent.md"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "tiberio-clinicas-saude",
+  "owner": {
+    "name": "Tibério Lemes"
+  },
+  "metadata": {
+    "description": "Skills públicas de aquisição e páginas para clínicas de saúde."
+  },
+  "plugins": [
+    {
+      "name": "clinicas-saude-lp-suite",
+      "source": "./plugins/clinicas-saude-lp-suite",
+      "description": "Agente autônomo para planejar landing pages de clínicas de saúde."
+    }
+  ]
+}
